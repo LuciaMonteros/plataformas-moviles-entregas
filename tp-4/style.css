@@ -60,3 +60,9 @@
         }
     }
 }
+/*10*/
+@media screen and (min-resolution: 2dppx){
+    article{
+        background-color: #667;
+    }
+}
