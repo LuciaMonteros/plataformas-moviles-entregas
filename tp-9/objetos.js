@@ -131,10 +131,23 @@ console.log("resultado felizCumpleaños: ", felizCumpleaños(personaEjemplo));
  * - un valor boolean ('true' o 'false'), indicando si persona1 y persona2 son la misma persona.
  */
 function sonLaMismaPersona(persona1, persona2) {
-    return persona1.nombre === persona2.nombre &&
-    persona1.apellido === persona2.apellido &&
-    persona1.edad === persona2.edad &&
-    persona1.documento === persona2.documento;
+    mismaPersona1 = {
+        apellido: persona1["apellido"],
+        nombre: persona1["nombre"],
+        edad: persona1["edad"],
+        documento: persona1["documento"], 
+    };
+    mismaPersona2 = {
+        apellido: persona2["apellido"],
+        nombre: persona2["nombre"],
+        edad: persona2["edad"],
+        documento: persona2["documento"],
+    };
+    if(persona1.DNI==persona2.DNI){
+        return("Si son la misma persona");
+    }else{
+        return("No son la misma persona");
+    }
 }
 console.log("resultado sonLaMismaPersona: ", sonLaMismaPersona(
     personaEjemplo,
