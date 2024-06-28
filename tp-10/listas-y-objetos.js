@@ -39,7 +39,6 @@ function ordenarPorApellido(listaDePersonas) {
         return a.apellido.localeCompare(b.apellido);
     });
     return resultado;
-    // return listaDePersonas.sort((a, b) => a.apellido.localeCompare(b.apellido));
 }
 console.log("ordenarPorApellido()", ordenarPorApellido(listaPersonasEjemplo));
 
