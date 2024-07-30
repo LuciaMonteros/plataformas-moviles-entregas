@@ -79,14 +79,14 @@
          * esta función se va a llamar cuando el usuario selecciona la opción Italic (Cursiva).
          */
         function funcionCursiva() {
-            let botonNegrita = document.querySelector("btn-cursiva");
-            let elementoParrafo= document.querySelector("p#texto.texto");
+            let botonCursiva = document.querySelector("btn-cursiva");
+            let elementoParrafo= document.querySelector("p.texto");
             if (elementoParrafo.style.fontStyle == "italic"){
                 elementoParrafo.style.fontStyle = null;
-                botonNegrita.innerText = "Italic (Cursiva)";
+                botonCursiva.innerText = "Italic (Cursiva)";
             }else{
                 elementoParrafo.style.fontStyle = "italic";
-                botonNegrita.innerText = "Italic (Desactivar)";
+                botonCursiva.innerText = "Italic (Desactivar)";
             }
         }
 
