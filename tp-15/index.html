@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP15 - Uso de APIs</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Recetario</h1>
+        <div class="text-center mb-4">
+            <button id="chineseBtn" class="btn btn-warning">Comida china</button>
+            <button id="italianBtn" class="btn btn-danger">Comida italiana</button>
+            <button id="americanBtn" class="btn btn-primary">Comida americana</button>
+        </div>
+
+        <div id="spinner" class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+
+        <div id="recipeGrid" class="row"></div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
