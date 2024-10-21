@@ -4,16 +4,14 @@ body {
     color: #333;
 }
 
-/* Estilos para el encabezado principal */
 h1 {
-    color: #6a00a8; /* Un tono púrpura más suave */
+    color: #6a00a8;
     margin-bottom: 25px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* Estilos para los enlaces de h2 */
 h2 a {
     color: #6a00a8;
     text-decoration: none;
@@ -23,20 +21,17 @@ h2 a {
     font-weight: 500;
 }
 
-/* Efecto hover para enlaces */
 h2 a:hover {
-    color: #c772de87; /* Otro tono de violeta cuando pasa el mouse */
-    transform: translateX(3px); /* Efecto de desplazamiento */
+    color: #c772de87;
+    transform: translateX(3px);
 }
 
-/* Contenedor principal */
 .container {
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.3); /* Fondo translúcido */
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(48, 0, 0, 0.1); /* Sombra*/
-    border: 1px solid #e0b3ff; /* Bordes*/
+    box-shadow: 0 4px 12px rgba(48, 0, 0, 0.1);
+    border: 1px solid #e0b3ff;
 }
-
